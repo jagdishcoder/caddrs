@@ -3,13 +3,13 @@ import Image from 'next/image'
 
 const founders = [
   {
-    name: 'Sampath',
-    role: 'Co-Founder',
+    name: 'Mrityunjay Datta Banik',
+    role: 'Founder',
     image: '/images/sampath.jpg',
   },
   {
-    name: 'Mritunjay',
-    role: 'Co-Founder',
+    name: 'Sampath Kumar',
+    role: 'Founder',
     image: '/images/mritunjay.jpg',
   },
   {
