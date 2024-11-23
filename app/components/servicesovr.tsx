@@ -16,7 +16,7 @@ export default function ServicesOverview() {
   const services: Service[] = [
     {
       icon: <FaGavel className="h-8 w-8 text-blue-500" />,
-      title: "Family Disputes",
+      title: "Corporate Disputes",
       brief: "Resolve family conflicts with sensitivity and fairness.",
       details: "Our platform provides professional mediators to help resolve issues such as divorce, custody, and inheritance in a supportive environment.",
     },
