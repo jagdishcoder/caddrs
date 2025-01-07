@@ -53,7 +53,7 @@ export default function Login() {
             />
           </div>
           {errorMessage && (
-            <p className="text-red-500 text-sm">{errorMessage}</p> // Display error message
+            <p className="text-red-500 text-sm">{errorMessage.replace("'", "&apos;")}</p> // Display error message
           )}
           <button
             type="submit"
