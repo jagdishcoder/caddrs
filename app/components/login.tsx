@@ -9,17 +9,15 @@ export default function Login() {
   const [password, setPassword] = useState('')
   const router = useRouter()
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    const response = await fetch('/api/login', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ email, password }),
-    })
-    if (response.ok) {
+
+    // Mock login validation
+    if (email === 'test@example.com' && password === 'password') {
+      // Redirect to 'professional' page on successful login
       router.push('/professional')
     } else {
-      alert('Login failed')
+      alert('Invalid email or password')
     }
   }
 
@@ -64,4 +62,3 @@ export default function Login() {
     </div>
   )
 }
-
