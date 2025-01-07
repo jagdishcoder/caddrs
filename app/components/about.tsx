@@ -46,11 +46,11 @@ const AboutSection: React.FC = () => {
               <footer className="text-gray-600 mt-2 text-lg">- Hegel</footer>
             </blockquote>
             <p className="text-xl text-gray-700 leading-relaxed">
-              The zeal, enthusiasm, courage, and dedication that &quot;I want to do something&quot; leads to this firm. During such conflicts, mediation is required to protect both parties&apos; interests and resolve disputes through settlement and mediation.
+              The Zeal, enthusiasm, courage, and dedication that &quot;I want to do something&quot; leads to this firm. During such conflicts, mediation is required to protect both parties&apos; interests and resolve disputes through settlement and mediation.
             </p>
           </CardContent>
         </Card>
-
+{/* <div></div> */}
         <div className="grid md:grid-cols-2 gap-12">
           <Card className="overflow-hidden transition-all duration-300 hover:shadow-lg">
             <CardHeader className="bg-green-600 text-white p-6">
